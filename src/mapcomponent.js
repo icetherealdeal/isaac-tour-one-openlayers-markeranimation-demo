@@ -87,7 +87,7 @@ const MapComponent = () => {
     const styles = {
       'route': new Style({
         stroke: new Stroke({
-          width: 10,
+          width: 5,
           color: [237, 212, 0, 0.8],
         }),
       }),
@@ -102,7 +102,7 @@ const MapComponent = () => {
           radius: 7,
           fill: new Fill({ color: 'red' }),
           stroke: new Stroke({
-            color: 'blue',
+            color: 'white',
             width: 2,
           }),
         }),
